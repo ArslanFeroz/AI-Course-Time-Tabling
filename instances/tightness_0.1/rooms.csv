@@ -1,0 +1,17 @@
+RoomID,Building,Capacity,Features
+R001,Science Block,40,Lab
+R002,CS Building,30,Lab
+R003,CS Building,100,Whiteboard
+R004,CS Building,100,Whiteboard;Lab;Projector
+R005,Lab Building,40,Lab
+R006,Science Block,30,Lab;Projector;Whiteboard
+R007,Science Block,80,Projector;Whiteboard;Lab
+R008,Lab Building,60,Projector
+R009,Main Building,100,Projector;Whiteboard;Lab
+R010,Engineering Hall,30,Whiteboard
+R011,Engineering Hall,30,Projector
+R012,Engineering Hall,80,Whiteboard
+R013,CS Building,50,Whiteboard
+R014,Main Building,80,Lab;Whiteboard
+R015,Engineering Hall,50,Lab
+R016,Lab Building,30,Projector;Lab

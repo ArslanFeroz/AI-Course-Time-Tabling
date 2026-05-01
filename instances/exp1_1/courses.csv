@@ -1,0 +1,11 @@
+CourseID,CourseName,Instructor,Enrollment,Duration,RoomFeatures
+C001,Programming 1,Mr Aamir Gulzar,67,50,Projector
+C002,Data Structures 2,Mr Arshad Islam,30,50,Whiteboard
+C003,Algorithms 3,Maam Marium Hida,26,75,Lab
+C004,Databases 4,Mr Anas Bin Rashid,29,75,Projector
+C005,Networks 5,Mr Hasnain Akhtar,38,75,Whiteboard
+C006,Operating Systems 6,Mr Hasan Mujtaba,55,75,Projector
+C007,AI 7,Maam Bushra Kanwal,51,50,Whiteboard
+C008,Machine Learning 8,Mr Aamir Gulzar,62,75,Whiteboard
+C009,Web Development 9,Mr Arshad Islam,77,50,Whiteboard
+C010,Cybersecurity 10,Maam Marium Hida,77,50,Whiteboard

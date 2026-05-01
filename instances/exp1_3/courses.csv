@@ -1,0 +1,31 @@
+CourseID,CourseName,Instructor,Enrollment,Duration,RoomFeatures
+C001,Programming 1,Mr Aamir Gulzar,39,75,Lab
+C002,Data Structures 2,Mr Arshad Islam,56,75,Lab
+C003,Algorithms 3,Maam Marium Hida,26,75,Lab
+C004,Databases 4,Mr Anas Bin Rashid,25,50,Whiteboard
+C005,Networks 5,Mr Hasnain Akhtar,53,50,Lab
+C006,Operating Systems 6,Mr Hasan Mujtaba,25,75,Projector
+C007,AI 7,Maam Bushra Kanwal,35,75,Projector
+C008,Machine Learning 8,Mr Aamir Gulzar,60,50,Lab
+C009,Web Development 9,Mr Arshad Islam,68,50,Projector
+C010,Cybersecurity 10,Maam Marium Hida,48,50,Whiteboard
+C011,Cloud Computing 11,Mr Anas Bin Rashid,27,75,Lab
+C012,Software Engineering 12,Mr Hasnain Akhtar,33,75,Lab
+C013,Compilers 13,Mr Hasan Mujtaba,59,50,Lab
+C014,Graphics 14,Maam Bushra Kanwal,57,75,Whiteboard
+C015,HCI 15,Mr Aamir Gulzar,28,75,Lab
+C016,Mobile Development 16,Mr Arshad Islam,45,75,Lab
+C017,Computer Vision 17,Maam Marium Hida,32,75,Whiteboard
+C018,NLP 18,Mr Anas Bin Rashid,31,50,Projector
+C019,Robotics 19,Mr Hasnain Akhtar,43,75,Whiteboard
+C020,Distributed Systems 20,Mr Hasan Mujtaba,30,75,Projector
+C021,Computer Architecture 21,Maam Bushra Kanwal,27,50,Lab
+C022,Theory of Computation 22,Mr Aamir Gulzar,40,75,Lab
+C023,Digital Logic 23,Mr Arshad Islam,43,50,Projector
+C024,Numerical Methods 24,Maam Marium Hida,78,75,Projector
+C025,Information Security 25,Mr Anas Bin Rashid,40,50,Whiteboard
+C026,Programming 26,Mr Hasnain Akhtar,50,75,Projector
+C027,Data Structures 27,Mr Hasan Mujtaba,39,50,Lab
+C028,Algorithms 28,Maam Bushra Kanwal,32,50,Lab
+C029,Databases 29,Mr Aamir Gulzar,65,50,Whiteboard
+C030,Networks 30,Mr Arshad Islam,53,50,Projector

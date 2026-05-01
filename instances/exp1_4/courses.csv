@@ -1,0 +1,51 @@
+CourseID,CourseName,Instructor,Enrollment,Duration,RoomFeatures
+C001,Programming 1,Mr Aamir Gulzar,73,75,Projector
+C002,Data Structures 2,Mr Arshad Islam,26,50,Projector
+C003,Algorithms 3,Maam Marium Hida,41,75,Whiteboard
+C004,Databases 4,Mr Anas Bin Rashid,30,75,Lab
+C005,Networks 5,Mr Hasnain Akhtar,62,50,Projector
+C006,Operating Systems 6,Mr Hasan Mujtaba,33,75,Whiteboard
+C007,AI 7,Maam Bushra Kanwal,48,50,Projector
+C008,Machine Learning 8,Mr Imran Butt,60,50,Lab
+C009,Web Development 9,Maam Sana Malik,42,75,Lab
+C010,Cybersecurity 10,Mr Bilal Chaudhry,47,50,Lab
+C011,Cloud Computing 11,Maam Nadia Hussain,75,50,Whiteboard
+C012,Software Engineering 12,Mr Faisal Ahmed,76,50,Projector
+C013,Compilers 13,Mr Aamir Gulzar,59,50,Lab
+C014,Graphics 14,Mr Arshad Islam,30,50,Whiteboard
+C015,HCI 15,Maam Marium Hida,26,75,Whiteboard
+C016,Mobile Development 16,Mr Anas Bin Rashid,69,75,Lab
+C017,Computer Vision 17,Mr Hasnain Akhtar,57,50,Whiteboard
+C018,NLP 18,Mr Hasan Mujtaba,49,75,Whiteboard
+C019,Robotics 19,Maam Bushra Kanwal,63,75,Projector
+C020,Distributed Systems 20,Mr Imran Butt,62,75,Projector
+C021,Computer Architecture 21,Maam Sana Malik,58,75,Projector
+C022,Theory of Computation 22,Mr Bilal Chaudhry,53,50,Projector
+C023,Digital Logic 23,Maam Nadia Hussain,40,50,Lab
+C024,Numerical Methods 24,Mr Faisal Ahmed,58,50,Whiteboard
+C025,Information Security 25,Mr Aamir Gulzar,59,50,Projector
+C026,Programming 26,Mr Arshad Islam,38,75,Projector
+C027,Data Structures 27,Maam Marium Hida,38,75,Projector
+C028,Algorithms 28,Mr Anas Bin Rashid,38,50,Whiteboard
+C029,Databases 29,Mr Hasnain Akhtar,47,50,Lab
+C030,Networks 30,Mr Hasan Mujtaba,68,50,Whiteboard
+C031,Operating Systems 31,Maam Bushra Kanwal,72,50,Whiteboard
+C032,AI 32,Mr Imran Butt,71,50,Whiteboard
+C033,Machine Learning 33,Maam Sana Malik,53,50,Projector
+C034,Web Development 34,Mr Bilal Chaudhry,49,50,Projector
+C035,Cybersecurity 35,Maam Nadia Hussain,37,50,Lab
+C036,Cloud Computing 36,Mr Faisal Ahmed,77,50,Lab
+C037,Software Engineering 37,Mr Aamir Gulzar,50,50,Lab
+C038,Compilers 38,Mr Arshad Islam,39,75,Lab
+C039,Graphics 39,Maam Marium Hida,77,75,Projector
+C040,HCI 40,Mr Anas Bin Rashid,25,50,Projector
+C041,Mobile Development 41,Mr Hasnain Akhtar,21,50,Lab
+C042,Computer Vision 42,Mr Hasan Mujtaba,21,75,Projector
+C043,NLP 43,Maam Bushra Kanwal,78,50,Lab
+C044,Robotics 44,Mr Imran Butt,23,75,Whiteboard
+C045,Distributed Systems 45,Maam Sana Malik,40,50,Projector
+C046,Computer Architecture 46,Mr Bilal Chaudhry,31,75,Whiteboard
+C047,Theory of Computation 47,Maam Nadia Hussain,43,75,Whiteboard
+C048,Digital Logic 48,Mr Faisal Ahmed,27,75,Lab
+C049,Numerical Methods 49,Mr Aamir Gulzar,31,75,Lab
+C050,Information Security 50,Mr Arshad Islam,52,50,Projector

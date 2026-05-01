@@ -1,0 +1,11 @@
+StudentID,StudentName,EnrolledCourses
+S0001,Ahmed Tariq,C010;C015;C001
+S0002,Ayesha Malik,C020;C012;C013
+S0003,Ali Khan,C002;C016;C015
+S0004,Imran Chaudhry,C009;C011;C020
+S0005,Hira Iqbal,C019;C004;C003
+S0006,Maryam Butt,C003;C012
+S0007,Faisal Sheikh,C020;C016;C017
+S0008,Ayesha Malik,C009;C013;C006
+S0009,Faisal Ahmed,C012;C010;C011
+S0010,Fatima Ahmed,C011;C009;C004

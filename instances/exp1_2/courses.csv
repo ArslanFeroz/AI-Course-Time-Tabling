@@ -1,0 +1,21 @@
+CourseID,CourseName,Instructor,Enrollment,Duration,RoomFeatures
+C001,Programming 1,Mr Aamir Gulzar,80,75,Lab
+C002,Data Structures 2,Mr Arshad Islam,39,50,Projector
+C003,Algorithms 3,Maam Marium Hida,44,50,Lab
+C004,Databases 4,Mr Anas Bin Rashid,37,50,Lab
+C005,Networks 5,Mr Hasnain Akhtar,62,50,Projector
+C006,Operating Systems 6,Mr Hasan Mujtaba,74,50,Lab
+C007,AI 7,Maam Bushra Kanwal,57,50,Projector
+C008,Machine Learning 8,Mr Aamir Gulzar,75,50,Whiteboard
+C009,Web Development 9,Mr Arshad Islam,78,75,Projector
+C010,Cybersecurity 10,Maam Marium Hida,80,50,Projector
+C011,Cloud Computing 11,Mr Anas Bin Rashid,48,50,Projector
+C012,Software Engineering 12,Mr Hasnain Akhtar,76,50,Projector
+C013,Compilers 13,Mr Hasan Mujtaba,70,50,Whiteboard
+C014,Graphics 14,Maam Bushra Kanwal,80,50,Projector
+C015,HCI 15,Mr Aamir Gulzar,29,50,Lab
+C016,Mobile Development 16,Mr Arshad Islam,77,50,Projector
+C017,Computer Vision 17,Maam Marium Hida,77,50,Projector
+C018,NLP 18,Mr Anas Bin Rashid,42,75,Lab
+C019,Robotics 19,Mr Hasnain Akhtar,71,50,Whiteboard
+C020,Distributed Systems 20,Mr Hasan Mujtaba,58,50,Lab
