@@ -1,34 +1,59 @@
-# CSP University Timetabling Solver
+# AI Course Timetabling Solver
 
-This project solves a university timetable scheduling problem using Constraint Satisfaction Problem (CSP) techniques.
-
-The goal is to assign each course a valid time slot and room while satisfying hard constraints such as room capacity, room features, instructor availability, student conflicts, and instructor clashes.
-
----
+An AI-based university course timetabling solver that models scheduling as a **Constraint Satisfaction Problem (CSP)**. It assigns courses to suitable rooms and time slots while checking hard constraints involving room capacity and features, instructor availability, and student/instructor clashes.
 
 ## Features
 
-- Loads timetable data from CSV files  
-- Generates valid domains for each course  
-- Supports four CSP solving algorithms:
-  - Backtracking Search  
-  - Forward Checking  
-  - MAC (Maintaining Arc Consistency)  
-  - Min-Conflicts Local Search  
-- Uses heuristics:
-  - MRV (Minimum Remaining Values)  
-  - Degree heuristic  
-  - LCV (Least Constraining Value)  
-- Prints timetable in readable format  
-- Shows performance metrics  
-- Can generate random test instances  
-- Includes experiment support for comparing algorithms  
+- Loads course, room, timeslot, student, and instructor-availability data from CSV files.
+- Builds candidate domains for course assignments.
+- Implements four solving approaches:
+  - Backtracking Search
+  - Forward Checking
+  - Maintaining Arc Consistency (MAC), using AC-3
+  - Min-Conflicts Local Search
+- Includes variable/value-ordering heuristics:
+  - Minimum Remaining Values (MRV)
+  - Degree heuristic
+  - Least Constraining Value (LCV)
+- Generates configurable synthetic timetable instances.
+- Runs experiments to compare search strategies and heuristics.
+- Reports solution information and performance metrics.
 
----
+## Constraints Modelled
 
-## Project Structure
+The solver checks constraints including:
 
-Q_1/
+- A room cannot host overlapping courses.
+- An instructor cannot teach overlapping courses.
+- Students cannot be scheduled into conflicting courses.
+- Room capacity must satisfy course enrolment.
+- Room features must meet course requirements.
+- Instructor availability must be respected.
+- Course duration must fit the selected time slot.
+
+## Algorithms at a Glance
+
+| Algorithm | Purpose |
+|---|---|
+| Backtracking | Builds an assignment incrementally and backtracks on conflicts. |
+| Forward Checking | Removes values from neighbouring domains after an assignment. |
+| MAC / AC-3 | Maintains arc consistency as assignments are made. |
+| Min-Conflicts | Uses local search to reduce conflicts in a complete assignment. |
+
+The project also includes heuristics to choose which course to assign next and which candidate assignment to try first.
+
+## Technology Stack
+
+- Python 3
+- pandas
+- Constraint Satisfaction Problems
+- Search and local-search algorithms
+- CSV-based input datasets
+
+## Repository Structure
+
+```text
+AI-Course-Time-Tabling/
 ├── main.py
 ├── csp.py
 ├── algorithms.py
@@ -38,83 +63,93 @@ Q_1/
 ├── Performance.py
 ├── generator.py
 ├── experiments.py
-├── debug.py
-├── quick_fix.py
 ├── courses.csv
-├── rooms.csv
-├── timeslots.csv
-├── students.csv
-└── instructor_availability.csv
+└── instances/              # Example generated/input instances
+```
 
----
+## Setup
 
-## Requirements
+```bash
+git clone https://github.com/ArslanFeroz/AI-Course-Time-Tabling.git
+cd AI-Course-Time-Tabling
 
-Install dependencies:
+python -m venv .venv
+```
 
+Activate the environment:
+
+**Windows PowerShell**
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+**Linux/macOS**
+```bash
+source .venv/bin/activate
+```
+
+Install the dependency:
+
+```bash
+python -m pip install --upgrade pip
 pip install pandas
+```
 
----
+## Usage
 
-## Input Files
+Run the default solver (MAC is the default algorithm):
 
-- courses.csv → course details  
-- rooms.csv → room details  
-- timeslots.csv → available time slots  
-- students.csv → enrollment data  
-- instructor_availability.csv → instructor preferences  
-
----
-
-## Constraints
-
-1. No room conflict  
-2. No instructor conflict  
-3. No student conflict  
-4. Room capacity must be sufficient  
-5. Room must satisfy required features  
-6. Timeslot duration must match course duration  
-7. Instructor availability respected  
-
----
-
-## Commands
-
-Run default:
-
+```bash
 python main.py
+```
 
-Run specific algorithms:
+Choose an algorithm:
 
-python main.py --algorithm backtrack  
-python main.py --algorithm forward  
-python main.py --algorithm mac  
-python main.py --algorithm minconflicts  
+```bash
+python main.py --algorithm backtrack
+python main.py --algorithm forward
+python main.py --algorithm mac
+python main.py --algorithm minconflicts
+```
 
-Run with custom input:
+Use a different input directory:
 
-python main.py --input-dir instances/test --algorithm mac  
+```bash
+python main.py --input-dir instances/exp1_1 --algorithm mac
+```
 
-Generate test data:
+Generate a test instance:
 
-python main.py --generate --courses 20 --rooms 16 --output-dir instances/my_test  
+```bash
+python main.py --generate --courses 20 --rooms 16 --output-dir instances/my_test
+```
 
-Run experiments:
+Run an experiment:
 
-python main.py --experiment 1  
+```bash
+python main.py --experiment 1
+```
 
----
+The command-line interface supports experiments 1 through 4.
+
+## Input Data
+
+The input data is CSV-based. The project uses files for:
+
+- Courses
+- Rooms
+- Time slots
+- Students/enrolments
+- Instructor availability
+
+When supplying a custom instance, ensure the expected CSV files and column formats are present in the selected input directory.
 
 ## Output
 
-- Algorithm used  
-- Domain sizes  
-- Final timetable  
-- Grid schedule  
-- Performance stats  
+The program prints the selected algorithm, timetable assignment information, a readable schedule, and performance measurements collected by the project.
 
----
+## Learning Outcomes
 
-## Example
+This project explores CSP modelling, domain construction, constraint propagation, heuristic search, local search, synthetic test generation, and empirical comparison of AI algorithms.
 
-python main.py --algorithm mac
+
